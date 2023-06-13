@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap");
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    height: 100vh;
+    overflow-x:hidden;
+    perspective: 10px;
+}
+.container{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+.background{
+    transform: translateZ(-40px) scale(5.06);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+h1{
+    position: absolute;
+    top: 6rem;
+    font-size: 5rem;
+    letter-spacing: 4px;
+    color: white;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.div{
+    background-color:rgb(45,45,45);
+    color:white; 
+    padding:5rem 0;
+}
+.secHeading{
+    font-size:2rem;
+    padding:0 2rem;
+}
+.text{
+    font-size: 1.2rem;
+    padding: 0 2rem;
+    margin: 4rem 0;
+    text-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.bg{
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+.desc{
+    position:absolute;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    color: black;
+    top: 50%;
+    left: 30%;
+    font-size:3.5rem;
+    font-weight:600;
+}
+.bg1{
+    background-image: url(bungee.jpg);
+}
+.bg2{
+    background-image: url(cliff.jpg);
+}
+.bg3{
+    background-image: url(rafting.jpeg);
+}
+.bg4{
+    background-image: url(rappelling.jpg);
+}
+.bg5{
+    background-image: url(waterfall.jpeg);
+}
